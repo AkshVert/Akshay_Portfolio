@@ -571,47 +571,6 @@ export default function Home() {
 
       </section>
 
-      {/* ========================================================= */}
-      {/* RESUME */}
-      {/* ========================================================= */}
-
-
-
-      <section className="border-t border-zinc-900 py-24">
-      <div className="mx-auto max-w-6xl px-6">
-        <p className="text-sm text-zinc-500">CAREER</p>
-
-        <div className="mt-4 flex flex-col justify-between gap-8 md:flex-row md:items-end">
-          <div>
-            <h2 className="text-3xl font-semibold tracking-tight">
-              Resume
-            </h2>
-            <p className="mt-4 max-w-2xl leading-7 text-zinc-400">
-              View my professional experience, technical skills, projects,
-              and career highlights.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap gap-3">
-            <Link
-              href="/resume"
-              className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-zinc-200"
-            >
-              View Resume →
-            </Link>
-
-            <a
-              href="/resume.pdf"
-              download
-              className="rounded-full border border-zinc-700 px-6 py-3 text-sm font-medium transition hover:bg-white hover:text-black"
-            >
-              Download PDF ↓
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
       {/* ========================================================= */}
       {/* CONTACT */}

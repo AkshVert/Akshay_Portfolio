@@ -13,7 +13,7 @@ export default function ResumePage() {
           </div>
 
           <a
-            href="/Akshay_Godhe_resume.pdf"
+            href="/Akshay_Godhe_Resume_Python.pdf"
             download
             className="rounded-full bg-white px-5 py-3 text-sm font-medium text-black transition hover:bg-zinc-200"
           >
@@ -23,7 +23,7 @@ export default function ResumePage() {
 
         <div className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900">
           <iframe
-            src="/Akshay_Godhe_resume.pdf"
+            src="/Akshay_Godhe_Resume_Python.pdf"
             title="Akshay Godhe Resume"
             className="h-[80vh] w-full"
           />
