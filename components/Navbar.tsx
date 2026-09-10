@@ -18,7 +18,7 @@ export default function Navbar() {
           onClick={closeMenu}
           className="text-lg font-bold tracking-tight"
         >
-          AKSHAY<span className="text-zinc-500">.DEV</span>
+          AKSHAY <span className="text-zinc-500">GODHE</span>
         </Link>
 
         {/* Desktop navigation */}
