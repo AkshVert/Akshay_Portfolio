@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ThemeProvider from "@/components/ThemeProvider";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Akshay Godhe | Python Backend Engineer",
+  title: "Akshay| Python Backend Engineer",
   description:
     "Portfolio of Akshay, a Python Backend Engineer focused on scalable APIs, automation, workflow systems, and production software.",
   keywords: [
@@ -22,8 +24,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <ThemeProvider>
+          <Navbar />
+          {children}
+      </ThemeProvider>
+      </body>
     </html>
   );
-}
+} 
